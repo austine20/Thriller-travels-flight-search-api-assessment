@@ -34,12 +34,13 @@ HOW TO USE OR CALL THE API
 
 Then grab the two different IATA Code gotten from the first endpoint(http://localhost:5000/api/v1/flight/airports) and input as a value for the "from" and "to" parameters, then select a date for departure and the number of adults boarding and other optional paramaters if needed.
 example:
-from: "LHR",
-to: "LOS"
-date: "2023-08-20,
-adult: 1,
-type: "economy",
-currency: "USD"
+    {     from: "LHR",
+      to: "LOS"
+      date: "2023-08-20,
+      adult: 1,
+      type: "economy",
+      currency: "USD"
+   }
 
 After the implementation above, then search. It will show you the list of airlines flying from the departure airport to the arrival airport, with other neccessary fligt details.
 
