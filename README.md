@@ -12,8 +12,8 @@ This was important, inorder to have access to the airports IATA code(Internation
 Then created a second enpoint to search for flights across the world and integrated with another endpoint for searching for flights gotten from RAPID API called FLIGHT FARE SEARCH.
 
 API ENDPOINTS CREATED
-1. http://localhost:5000/api/v1/flight/airports.
-2. http://localhost:5000/api/v1/flight/search.
+1. https://thriller-travels-flight-api.onrender.com/api/v1/flight/airports.
+2. https://thriller-travels-flight-api.onrender.com/api/v1/flight/search.
 
 LIST OF THIRD PARTY ENDPOINTS USED
 1. https://flight-radar1.p.rapidapi.com/aircrafts/list >>>>> to get the lists of airports.
@@ -21,8 +21,8 @@ LIST OF THIRD PARTY ENDPOINTS USED
 
 HOW TO USE OR CALL THE API
 
-1. Firstly, call these endpoint http://localhost:5000/api/v1/flight/airports, so as to get the list of airports available together with their IATA code(International Air Transport Association Code).
-2. Then call these endpoint http://localhost:5000/api/v1/flight/search. these endpoints accepts the following parameters compulsorily, which must be provided for the search to work:
+1. Firstly, call these endpoint https://thriller-travels-flight-api.onrender.com/api/v1/flight/airports, so as to get the list of airports available together with their IATA code(International Air Transport Association Code).
+2. Then call these endpoint https://thriller-travels-flight-api.onrender.com/api/v1/flight/search. these endpoints accepts the following parameters compulsorily, which must be provided for the search to work:
    a. from: which connotes the the departures airport.
    b. to: which connotes the arrivals airport.
    c. date: which connotes date of departure.
@@ -32,7 +32,7 @@ HOW TO USE OR CALL THE API
    a. type: which depicts the kind of flight, either economy or business class.
    b. currency: which depicts the currency shown for flight prices.
 
-Then grab the two different IATA Code gotten from the first endpoint(http://localhost:5000/api/v1/flight/airports) and input as a value for the "from" and "to" parameters, then select a date for departure and the number of adults boarding and other optional paramaters if needed.
+Then grab the two different IATA Code gotten from the first endpoint(https://thriller-travels-flight-api.onrender.com/api/v1/flight/airports) and input as a value for the "from" and "to" parameters, then select a date for departure and the number of adults boarding and other optional paramaters if needed.
 example:
     {     from: "LHR",
       to: "LOS"
